@@ -6,7 +6,7 @@
 
 Clone
 ```
-git clone https://github.com/ksfi/sniffer.git
+git clone https://github.com/sunny9391/packet-sniffer.git
 ```
 
 Requirements
