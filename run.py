@@ -35,9 +35,9 @@ def run():
         try:
             if int(mode) == 1:
                 if devices > 0:
-                    net: str = input("Choose what to sniff: (type '10' to sniff all) ")
+                    net: str = input("Choose what to sniff: (type 'all' to sniff all) ")
                 else:
-                    net: str = '10'
+                    net: str = 'all'
                 if net.lower() != 'all':
                     target_mac = arp[0][int(net)]
                     target_ip = arp[1][target_mac]
